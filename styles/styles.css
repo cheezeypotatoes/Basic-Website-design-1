@@ -1,0 +1,60 @@
+body {
+  background-image: url(../images/brick-wall.jpg);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Spectral SC', serif;
+  margin-bottom: 50px;
+}
+
+.welcome-container {
+  color: white;
+  font-size: 1.2em;
+  margin: 15px;
+  font-family: 'Spectral SC', serif;
+}
+
+.nav-list {
+  flex-grow: 1;
+  font-size: 1.2em
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-list li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.tile-container {
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  display: flex;
+}
+
+.tile {
+  flex-grow: 1;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  background: rgba(  222, 239, 242 , .5);
+  font-family: 'Spectral SC', serif;
+  box-shadow: 20px 8px 8px black;
+  border-radius: 5px;
+}
+
+.tile h3 {
+  text-align: center;
+}
+
+.tile p {
+  text-align: center;
+}
