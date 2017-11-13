@@ -38,6 +38,7 @@ body {
   margin-top: 150px;
   margin-bottom: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tile {
@@ -49,6 +50,7 @@ body {
   font-family: 'Spectral SC', serif;
   box-shadow: 20px 8px 8px black;
   border-radius: 5px;
+
 }
 
 .tile h3 {
