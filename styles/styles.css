@@ -37,7 +37,7 @@ body {
 .tile-container {
   color: white;
   margin-top: 150px;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -61,4 +61,19 @@ body {
 .tile p {
   text-align: center;
   margin: 5px;
+}
+
+.bird-watcher {
+  background: rgba(  222, 239, 242 , .5);
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+
+
+}
+
+.bird-watcher div {
+  flex-grow: 1;
+  font-family: 'Spectral SC', serif;
+  font-size: 1.2em;
 }
