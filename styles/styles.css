@@ -37,7 +37,7 @@ body {
 .tile-container {
   color: white;
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -79,4 +79,28 @@ body {
   flex-grow: 1;
   font-family: 'Spectral SC', serif;
   font-size: 1.2em;
+  width: auto;
+}
+
+.gallery-container {
+  background: rgba(  222, 239, 242 , .5);
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 20px 8px 8px black;
+
+
+}
+
+img {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+iFrame {
+  width: auto;
 }
